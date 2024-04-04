@@ -1,6 +1,6 @@
 # Babilônia
 
-![Capa do Projeto](https://picsum.photos/850/280)
+![Capa do Projeto](./assets/livraria.jpg)
 
 # Sobre o Projeto
 
