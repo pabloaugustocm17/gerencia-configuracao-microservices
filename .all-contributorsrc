@@ -1,0 +1,26 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "commitType": "docs",
+  "commitConvention": "angular",
+  "contributors": [
+    {
+      "login": "pabloaugustocm17",
+      "name": "Pablo Magalhães",
+      "avatar_url": "https://avatars.githubusercontent.com/u/109962972?v=4",
+      "profile": "https://github.com/pabloaugustocm17",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "skipCi": true,
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "projectName": "gerencia-configuracao-microservices",
+  "projectOwner": "pabloaugustocm17"
+}
