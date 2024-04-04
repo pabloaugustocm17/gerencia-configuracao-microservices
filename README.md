@@ -1,20 +1,14 @@
-# Título do Projeto
-
+# Babilônia
 
 ![Capa do Projeto](https://picsum.photos/850/280)
 
 # Sobre o Projeto
 
-Escreva aqui um parágrafo contendo uma descrição ou resumo do seu projeto.
-
-<h4 align="center"> 
-	🚧  Em desenvolvimento . . .
-</h4>
+Este projeto consiste em uma plataforma de biblioteca online, oferecendo aos usuários a possibilidade de alugar livros por meio de um catálogo virtual. Além disso, o sistema inclui uma interface administrativa, permitindo aos administradores gerenciar toda a sua base. Isso inclui funcionalidades como adicionar novos livros, realizar empréstimos e devoluções, bem como outras operações pertinentes ao gerenciamento da biblioteca.
 
 # Índice/Sumário
 
 * [Sobre](#sobre-o-projeto)
-* [Sumário](#índice/sumário)
 * [Requisitos Funcionais](#requisitos-funcionais)
 * [Tecnologias Usadas](#tecnologias-usadas)
 * [Contribuição](#contribuição)
@@ -25,19 +19,16 @@ Escreva aqui um parágrafo contendo uma descrição ou resumo do seu projeto.
 
 # Requisitos Funcionais 
 
-- [x] **Cadastrar Usuário**
-- [x] **Fazer Login**
-- [ ] Matricular em Curso
-- [ ] Cancelar Matricula
-- [ ] Visualizar Notas
-- [ ] Visualizar e Atualizar Informações do Estudante
+- [x] **Gerenciar livros**
+- [ ] Gerenciar Aluguel
+- [ ] Gerenciar Usuários
 
 # Tecnologias Usadas
 
-- [Flutter](https://flutter.dev/)
-- [Node.js](https://nodejs.org/en/)
-- [React](https://pt-br.reactjs.org/)
-- [React Native](https://reactnative.dev/)
+- [Java](https://www.java.com/pt-BR/)
+- [Spring Boot](https://spring.io/projects/spring-boot)
+- [Docker](https://www.docker.com/)
+- [React](https://reactnative.dev/)
 - [TypeScript](https://www.typescriptlang.org/)
 
 # Contribuição
@@ -50,7 +41,7 @@ Leia o arquivo [CONTRIBUTING.md](CONTRIBUTING.md) para saber detalhes sobre o no
 
 # Licença
 
-Este projeto está licenciado sob a Licença MIT,  consulte o arquivo [LICENSE.md](LICENSE.md) para mais detalhes.
+Este projeto está licenciado sob a Licença Apache,  consulte o arquivo [LICENSE.md](LICENSE.md) para mais detalhes.
 
 # Agradecimentos
 
