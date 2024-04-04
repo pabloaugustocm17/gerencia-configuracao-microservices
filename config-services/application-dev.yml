@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: greeting-service
+
+
+greeting-service:
+  greeting: "Hello"
+  default_value: "World"
+
+
+server:
+  port: 8000
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - '*'

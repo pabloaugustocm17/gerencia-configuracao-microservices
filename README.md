@@ -1,2 +1,2 @@
-# gerencia-configuracao-microservices
-Repositório destinao à matéria de Gerência de Configuração
+# spring-microservices
+Criação de microserviços em java
