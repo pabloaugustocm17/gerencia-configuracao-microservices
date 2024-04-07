@@ -55,8 +55,10 @@
           <span matTextPrefix>$&nbsp;</span>
           <span matTextSuffix>.00</span>
         </mat-form-field>
-
-        <button type="submit" mat-raised-button color="accent">Salvar</button>
+        <div class="btns">
+          <button type="button" mat-raised-button color="accent" (click)="onBack()">Voltar</button>
+          <button type="submit" mat-raised-button color="accent">Salvar</button>
+        </div>
       </div>
     </form>
   </div>

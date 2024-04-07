@@ -86,4 +86,8 @@ export class BookRegistrationComponent implements OnInit {
   openSnackBar(message: string, action: string) {
     this._snackBar.open(message, action, { duration: this.snackBarDuration });
   }
+
+  onBack() {
+    this.router.navigate(['/']);
+  }
 }
