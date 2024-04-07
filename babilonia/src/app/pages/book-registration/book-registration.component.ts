@@ -5,15 +5,16 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatButtonModule } from '@angular/material/button';
 import { MAT_DATE_LOCALE } from '@angular/material/core';
 import { provideNativeDateAdapter } from '@angular/material/core';
-import {MatSnackBar} from '@angular/material/snack-bar';
+import { MatSnackBar } from '@angular/material/snack-bar';
+import { BookService } from '../../shared/services/book.service';
+import { Router } from '@angular/router';
+
 import {
   FormControl,
   FormGroup,
   ReactiveFormsModule,
   Validators,
 } from '@angular/forms';
-import { BookService } from '../../shared/services/book.service';
-import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-book-registration',
@@ -77,6 +78,8 @@ export class BookRegistrationComponent implements OnInit {
             setTimeout(() => this.router.navigate(['/home']), this.snackBarDuration);
           },
         });
+      } else {
+        this.openSnackBar('Preencha todos os campos', 'Fechar')
       }
     } catch (error) {
       console.error(error);

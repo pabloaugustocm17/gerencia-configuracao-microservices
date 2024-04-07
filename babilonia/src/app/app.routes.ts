@@ -9,6 +9,13 @@ export const routes: Routes = [
       ),
   },
   {
+    path: 'book-view',
+    loadComponent: () =>
+      import('./pages/book-view/book-view.component').then(
+        (m) => m.BookViewComponent
+      ),
+  },
+  {
     path: 'home',
     loadComponent: () =>
       import('./pages/home/home.component').then(
