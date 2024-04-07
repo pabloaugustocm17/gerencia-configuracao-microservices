@@ -1,0 +1,64 @@
+.container{
+    background-image: url("../../../../../assets/livraria.jpg");
+    background-size: auto; 
+    background-position: center; 
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute; 
+    top: 50%; 
+    left: 10%;
+    transform: translateY(-50%); 
+    text-align: left; 
+    width: 50%; 
+    overflow-wrap: break-word;
+    transition: all 0.3s ease;
+}
+
+.text h1, h2, p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.text h1 {
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 50px;
+}
+
+.text h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.text p {
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.button {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 10px;
+}
+
+.button:hover {
+    background-color: rgb(234, 146, 251); 
+    transform: scale(1.1); 
+}
+
+.text:hover {
+    text-shadow: 0 0 10px rgb(212, 0, 255);
+}
