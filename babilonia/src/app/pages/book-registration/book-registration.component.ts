@@ -74,7 +74,7 @@ export class BookRegistrationComponent implements OnInit {
           error: (error: any) => this.openSnackBar(error.error.message, 'Fechar'),
           complete: () => {
             this.form.reset();
-            setTimeout(() => this.router.navigate(['/']), this.snackBarDuration);
+            setTimeout(() => this.router.navigate(['/home']), this.snackBarDuration);
           },
         });
       }
@@ -88,6 +88,6 @@ export class BookRegistrationComponent implements OnInit {
   }
 
   onBack() {
-    this.router.navigate(['/']);
+    this.router.navigate(['/home']);
   }
 }
