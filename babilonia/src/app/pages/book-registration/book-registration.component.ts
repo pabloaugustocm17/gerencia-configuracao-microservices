@@ -5,6 +5,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatButtonModule } from '@angular/material/button';
 import { MAT_DATE_LOCALE } from '@angular/material/core';
 import { provideNativeDateAdapter } from '@angular/material/core';
+import {MatSnackBar} from '@angular/material/snack-bar';
 import {
   FormControl,
   FormGroup,
@@ -12,6 +13,7 @@ import {
   Validators,
 } from '@angular/forms';
 import { BookService } from '../../shared/services/book.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-book-registration',
@@ -33,6 +35,9 @@ import { BookService } from '../../shared/services/book.service';
 export class BookRegistrationComponent implements OnInit {
   bookService = inject(BookService);
   form!: FormGroup;
+  snackBarDuration = 3000;
+
+  constructor(private _snackBar: MatSnackBar,  private router: Router) {}
 
   ngOnInit(): void {
     this.form = new FormGroup({
@@ -62,20 +67,23 @@ export class BookRegistrationComponent implements OnInit {
   onSubmit() {
     try {
       if (!this.form.invalid) {
-        const { name, author, description, launch_date, price } = this.form.value;
         this.bookService
-          .createBook({
-            name,
-            author,
-            description,
-            launch_date,
-            price,
-          })
-          .subscribe(() => console.log(this.form.value));
-        ;
+        .createBook(this.form.value)
+        .subscribe({
+          next: (response: any) => this.openSnackBar(response.message, 'Fechar'),
+          error: (error: any) => this.openSnackBar(error.error.message, 'Fechar'),
+          complete: () => {
+            this.form.reset();
+            setTimeout(() => this.router.navigate(['/']), this.snackBarDuration);
+          },
+        });
       }
     } catch (error) {
       console.error(error);
     }
+  }
+
+  openSnackBar(message: string, action: string) {
+    this._snackBar.open(message, action, { duration: this.snackBarDuration });
   }
 }
