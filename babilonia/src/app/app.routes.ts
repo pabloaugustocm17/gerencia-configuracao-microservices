@@ -15,4 +15,16 @@ export const routes: Routes = [
         (m) => m.BookViewComponent
       ),
   },
+  {
+    path: 'home',
+    loadComponent: () =>
+      import('./pages/home/home.component').then(
+        (m) => m.HomeComponent
+      ),
+  },
+  {
+    path: '',
+    redirectTo: 'home',
+    pathMatch: 'full' 
+  },
 ];
