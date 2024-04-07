@@ -9,6 +9,6 @@ export class BookService {
   httpClient = inject(HttpClient);
 
   createBook(payload: BookPayload) {
-    return this.httpClient.post<BookPayload>('/api/book', payload);
+    return this.httpClient.post<BookPayload>('/api/book/', payload);
   }
 }
