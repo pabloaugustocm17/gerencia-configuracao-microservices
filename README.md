@@ -1,6 +1,6 @@
 # Babilônia
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ![Capa do Projeto](./assets/livraria.jpg)
@@ -47,6 +47,7 @@ Leia o arquivo [CONTRIBUTING.md](CONTRIBUTING.md) para saber detalhes sobre o no
   <tbody>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/pabloaugustocm17"><img src="https://avatars.githubusercontent.com/u/109962972?v=4?s=100" width="100px;" alt="Pablo Magalhães"/><br /><sub><b>Pablo Magalhães</b></sub></a><br /><a href="https://github.com/pabloaugustocm17/gerencia-configuracao-microservices/commits?author=pabloaugustocm17" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://www.gabriellimadesouza.com/"><img src="https://avatars.githubusercontent.com/u/90854484?v=4?s=100" width="100px;" alt="Gabriel Lima de Souza"/><br /><sub><b>Gabriel Lima de Souza</b></sub></a><br /><a href="https://github.com/pabloaugustocm17/gerencia-configuracao-microservices/commits?author=GabrielLimaDeSouza" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
