@@ -4,14 +4,14 @@ export const routes: Routes = [
   {
     path: 'book-registration',
     loadComponent: () =>
-      import('./features/book-registration/book-registration.component').then(
+      import('./pages/book-registration/book-registration.component').then(
         (m) => m.BookRegistrationComponent
       ),
   },
   {
     path: 'home',
     loadComponent: () =>
-      import('./features/home/home.component').then(
+      import('./pages/home/home.component').then(
         (m) => m.HomeComponent
       ),
   },
