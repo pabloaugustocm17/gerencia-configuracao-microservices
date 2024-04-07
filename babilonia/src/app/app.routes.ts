@@ -8,4 +8,11 @@ export const routes: Routes = [
         (m) => m.BookRegistrationComponent
       ),
   },
+  {
+    path: 'book-view',
+    loadComponent: () =>
+      import('./features/book-view/book-view.component').then(
+        (m) => m.BookViewComponent
+      ),
+  },
 ];
