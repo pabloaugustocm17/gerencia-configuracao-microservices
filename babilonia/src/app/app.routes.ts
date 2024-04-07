@@ -11,7 +11,7 @@ export const routes: Routes = [
   {
     path: 'book-view',
     loadComponent: () =>
-      import('./features/book-view/book-view.component').then(
+      import('./pages/book-view/book-view.component').then(
         (m) => m.BookViewComponent
       ),
   },
