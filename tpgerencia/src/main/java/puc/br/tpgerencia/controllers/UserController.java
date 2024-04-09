@@ -55,7 +55,7 @@ public class UserController {
         return ResponseEntity.status(response.getStatus_code()).body(response.getMessage());
     }
 
-    @GetMapping("id/{id}")
+    @GetMapping("{id}")
     public ResponseEntity<?> _getUser(@PathVariable UUID id){
         if(id == null)
             return new  ResponseEntity<>(HttpStatus.BAD_REQUEST);
