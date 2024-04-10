@@ -1,0 +1,17 @@
+package puc.br.tpgerencia.models.response;
+
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class Response {
+
+    private String message;
+
+    @JsonIgnore
+    private int status_code;
+}

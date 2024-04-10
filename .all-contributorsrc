@@ -1,0 +1,71 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "commitType": "docs",
+  "commitConvention": "angular",
+  "contributors": [
+    {
+      "login": "pabloaugustocm17",
+      "name": "Pablo Magalhães",
+      "avatar_url": "https://avatars.githubusercontent.com/u/109962972?v=4",
+      "profile": "https://github.com/pabloaugustocm17",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "GabrielLimaDeSouza",
+      "name": "Gabriel Lima de Souza",
+      "avatar_url": "https://avatars.githubusercontent.com/u/90854484?v=4",
+      "profile": "https://www.gabriellimadesouza.com/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "NikolasLouret",
+      "name": "Nikolas Louret",
+      "avatar_url": "https://avatars.githubusercontent.com/u/77488551?v=4",
+      "profile": "http://www.nikolaslouret.com",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "Frederico-dos-Santos",
+      "name": "Frederico dos Santos",
+      "avatar_url": "https://avatars.githubusercontent.com/u/90854583?v=4",
+      "profile": "https://github.com/Frederico-dos-Santos",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "ArthurAlexi",
+      "name": "Arthur Alexi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/90854173?v=4",
+      "profile": "https://github.com/ArthurAlexi",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "GabrieldeSouza1",
+      "name": "Gabriel de Souza",
+      "avatar_url": "https://avatars.githubusercontent.com/u/90854634?v=4",
+      "profile": "https://github.com/GabrieldeSouza1",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "skipCi": true,
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "projectName": "gerencia-configuracao-microservices",
+  "projectOwner": "pabloaugustocm17"
+}
